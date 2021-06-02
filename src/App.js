@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
-  // useState
-  const state = useState();
   const [count, setCount] = useState(0);
 
   const IncNum = () => {
@@ -16,7 +14,14 @@ const App = () => {
 
   return (
     <>
-      <div className="text-center" style={{ marginTop: "40vh" }}>
+      <h1 className="text-center mt-5">
+        React{" "}
+        <b>
+          <i>Hooks</i>
+        </b>{" "}
+        with useState
+      </h1>
+      <div className="text-center" style={{ marginTop: "30vh" }}>
         <h1>{count}</h1>
         <br />
         <button
