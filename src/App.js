@@ -15,31 +15,30 @@ const App = () => {
   return (
     <>
       <h1 className="text-center mt-5">
-        React{" "}
-        <b>
-          <i>Hooks</i>
-        </b>{" "}
-        with useState
+        React <i>Hooks</i> with useState
       </h1>
       <div className="text-center" style={{ marginTop: "30vh" }}>
         <h1>{count}</h1>
         <br />
         <button
-          onClick={IncNum}
+          onClick={DecNum}
           type="button"
           className="btn btn-primary btn-xl"
           style={{ marginRight: "15px" }}
         >
-          Add
+          Less
         </button>
         <button
-          onClick={DecNum}
+          onClick={IncNum}
           type="button"
           className="btn btn-primary btn-xl"
         >
-          Less
+          Add
         </button>
       </div>
+      <h6 className="text-center" style={{ marginTop: "30vh" }}>
+        Copyright &copy; 2021 Sanajit Jana. All Rights Reserved.
+      </h6>
     </>
   );
 };
