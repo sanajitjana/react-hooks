@@ -14,9 +14,7 @@ const App = () => {
 
   return (
     <>
-      <h1 className="text-center mt-5">
-        React <i>Hooks</i> with useState
-      </h1>
+      <h1 className="text-center mt-5">React Hooks with useState</h1>
       <div className="text-center" style={{ marginTop: "30vh" }}>
         <h1>{count}</h1>
         <br />
